@@ -19,12 +19,12 @@ class Bank:
 
 
     def withdrow(self, amount):
-        if (self.balance - amount) < -501:
-            print(self.balance - amount)
+        if amount > self.balance:
             print(f'you don not have enough balance : {self.balance}')
-        else:
-            self.balance -= amount
-            self.show_balance()
+            return
+        
+        self.balance -= amount
+        self.show_balance()
         
 
     def deposite(self, amount):
