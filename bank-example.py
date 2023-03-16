@@ -39,3 +39,11 @@ c1.deposite(500)
 c1.withdrow(200)
 c1.show_details()
 c1.show_balance()
+
+#add more client
+
+c2 = Bank('hassan', 25)
+c2.deposite(1000)
+c2.withdrow(100)
+c2.show_details()
+c2.show_balance()
