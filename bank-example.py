@@ -30,8 +30,12 @@ class Bank:
     def show_details(self):
         print(f'Name : {self.name}')
         print(f'Age : {self.age}')
+
+    def show_balance(self):
+        print(f'Your current balance : {self.balance}')
 c1 = Bank('ahmad', 23)
 
 c1.deposite(500)
 c1.withdrow(200)
-c1.show_details() 
+c1.show_details()
+c1.show_balance()
