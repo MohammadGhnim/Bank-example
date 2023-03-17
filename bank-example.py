@@ -8,12 +8,22 @@ Bank example:
       - show balance
 
 '''
-
-class Bank:
+class User:
     def __init__(self, name, age):
         print(f'welcome {name}')
         self.name = name
         self.age = age
+
+
+    def show_details(self):
+        print(f'Name : {self.name}')
+        print(f'Age  : {self.age}')
+
+        
+    
+class Bank(User):
+    def __init__(self, name, age):
+        super().__init__(name, age)
         self.balance = 0
 
 
@@ -32,9 +42,7 @@ class Bank:
         self.show_balance()
 
 
-    def show_details(self):
-        print(f'Name : {self.name}')
-        print(f'Age  : {self.age}')
+    
 
     def show_balance(self):
         print(f'Your current balance : {self.balance}')
