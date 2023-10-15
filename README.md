@@ -1,4 +1,4 @@
 # python-bank-example
-Es ist ein Beispielprojekt für eine einfache Bankanwendung, die in Python geschrieben ist. 
-Es zeigt, wie man grundlegende Bankfunktionen wie das Erstellen von Konten, das Einzahlen und Abheben von Geld, das Überprüfen des Kontostands und das Überweisen von Geld zwischen Konten implementieren kann. 
-Das Projekt ist für Anfänger geeignet, die lernen möchten, wie man Python-Programme schreibt und grundlegende Konzepte der Programmierung und der Bankanwendungen verstehen möchten.
+It is a sample project for a simple banking application written in Python.
+It shows how to implement basic banking functions such as creating accounts, depositing and withdrawing money, checking account balances, and transferring money between accounts.
+The project is suitable for beginners who want to learn how to write Python programs and understand basic concepts of programming and banking applications.
